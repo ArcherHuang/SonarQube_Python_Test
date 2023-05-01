@@ -1,10 +1,13 @@
 import psycopg2
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 def get_customer_info(name):
     conn = psycopg2.connect(
         database = "test",
         user = "root",
-        password = "qwer1234",
+        password = os.getenv("DB_PASSWORD"),
         host = "localhost",
         port = "5432"
     )
