@@ -17,3 +17,5 @@ def get_customer_info(name):
     rows = cur.fetchall()
     conn.close()
     return rows
+
+get_customer_info("Arche")
