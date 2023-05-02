@@ -7,7 +7,8 @@ def get_customer_info(name):
     conn = psycopg2.connect(
         database = "test",
         user = "root",
-        password = os.getenv("DB_PASSWORD"),
+        # password = os.getenv("DB_PASSWORD"),
+        password = "DB_PASSWORD",
         host = "localhost",
         port = "5432"
     )
@@ -18,4 +19,4 @@ def get_customer_info(name):
     conn.close()
     return rows
 
-get_customer_info("Arche")
+get_customer_info("Archer")

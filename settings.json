@@ -1,0 +1,14 @@
+{
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "serverUrl": "http://localhost:9000/",
+            "token": "sqp_3c7706359f57d3853f412a4e58dd05dd73cbed8f"
+        }
+    ],
+    "sonarlint.connectedMode.project": {
+        "projectKey": "test"
+
+    },
+    "sonarlint.ls.javaHome": "/Library/Java/JavaVirtualMachines/temurin-19.jdk/Contents/Home",
+    "sonarlint.pathToNodeExecutable": "/Users/archer/.nvm/versions/node/v16.18.1/bin/node"
+}
