@@ -20,3 +20,4 @@ def get_customer_info(name):
     return rows
 
 get_customer_info("Archer")
+print("dfadsf")
